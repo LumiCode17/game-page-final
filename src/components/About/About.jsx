@@ -9,7 +9,7 @@ const About = () => {
         <h3 id="head3">About</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          reprehenderit perspiciatis quod velit ea corporis doloremque maxime
+          reprehenderit perspiciazuh quod velit ea corporis doloremque maxime
           doloribus provident sit! Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Ea fugiat, nostrum commodi, tempore qui tempora
           officia earum quidem animi nemo dolor aliquid assumenda recusandae
