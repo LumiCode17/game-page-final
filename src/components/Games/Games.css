@@ -1,0 +1,130 @@
+#game {
+    height: 100%
+  }
+  
+  .section3 {
+    background-color: rgb(8, 8, 8);
+    background-image: url("../../images/gamesection3img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0 5%;
+  }
+  
+  .games {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: shrink;
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+  
+  .section3 #head4 {
+    border-bottom: 5px solid crimson;
+    color: white;
+    font-size: 45px;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+  }
+  
+  .container img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .container img:hover {
+    border: 3px solid rgb(215, 22, 22);
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+  
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  
+  h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .react-responsive-modal-modal {
+    width: 1250px !important;
+    height: 800px;
+    max-width: none !important;
+  }
+  
+  .react-responsive-modal-closeButton {
+    background-color: #df1313db !important;
+  }
+  
+  /***********Modal screen*************/
+  @media screen and (max-width: 1440px) {
+    .react-responsive-modal-modal {
+      width: 1100px !important;
+      height: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .react-responsive-modal-modal {
+      width: 970px !important;
+      height: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .react-responsive-modal-modal {
+      width: 745px !important;
+      height: 600px;
+    }
+  }
+  /************RESPONSIVENESS*************/
+  @media screen and (max-width: 450px) {
+    .games {
+      display: grid;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .header5 {
+      font-size: 15px;
+    }
+  }

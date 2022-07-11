@@ -1,0 +1,20 @@
+.tail {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(6, 6, 6, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+  }
+  
+  .tail span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+  }

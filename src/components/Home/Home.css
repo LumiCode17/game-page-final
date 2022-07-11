@@ -1,0 +1,130 @@
+#main {
+    /* padding-top:150px; */
+    height: 100vh;
+}
+
+.section1 {
+    background-image: url(../../images/18690.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .head {
+    /*  margin: auto; */
+    width: 60%;
+    margin-left: 25%;
+}
+
+.section1 .head h2 {
+    color: #c94545;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 2px #dfdfdf,
+        -2px 5px 1px #b8b8b8,
+        -4px 8px 0px #979797,
+        -6px 11px 0px #747474,
+        -8px 14px 0px #565656,
+        -10px 17px 0px #343434,
+        -12px 20px 0px #171717,
+        -14px 23px 0px #000;
+    font-size: 5rem;
+    font-family: 'Nosifer', cursive;
+}
+
+.section1 .head h2 span {
+    color: #e53e3e;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 2px #dfdfdf,
+        -2px 5px 1px #b8b8b8,
+        -4px 8px 0px #979797,
+        -6px 11px 0px #747474,
+        -8px 14px 0px #565656,
+        -10px 17px 0px #343434,
+        -12px 20px 0px #171717,
+        -14px 23px 0px #000;
+    font-size: 5rem;
+    font-family: 'Nosifer', cursive;
+}
+
+.section1 .head p {
+    background: rgba(6, 6, 6, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #dfdfdf;
+    margin: auto;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+/*******************RESPONSIVENESS********************/
+@media screen and (max-width: 600px) {
+    .section1 .head h2 {
+        font-size: 4rem;
+    }
+
+    .section1 .head h2 span {
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .section1 .tail span {
+      font-size: 17px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .section1 .head h2 {
+      font-size: 3rem;
+    }
+  
+    .section1 .head h2 span {
+      font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section1 .head p {
+      font-size: 15px;
+    }
+  
+    .section1 .tail span {
+      font-size: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .section1 .head h2 {
+      font-size: 2rem;
+    }
+  
+    .section1 .head h2 span {
+      font-size: 2rem;
+    }
+  
+    .section1 .head p {
+      font-size: 13px;
+    }
+  
+    .section1 .tail span {
+      font-size: 14px;
+    }
+}   
+@media screen and (max-width: 300px) {
+    .glitch {
+      font-size: 35px;
+      float: right;
+      letter-spacing: 5px;
+    }
+}    
+@media screen and (max-width: 250px) {
+    .glitch {
+      font-size: 30px;
+      float: right;
+      letter-spacing: 5px;
+    }
+}    

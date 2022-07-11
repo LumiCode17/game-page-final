@@ -1,0 +1,241 @@
+.navbar {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 15px;
+    position: fixed;
+    /* left: 0;
+    top: 0; */
+    width: 100%;
+     height: auto; /*150px*/
+     z-index: 3; 
+  }
+  
+  .cont {
+    display: inline-flex;
+    text-align: center;
+  }
+  
+  .navbar .navAnc {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Nosifer", cursive;
+    color: #fff;
+    position: relative;
+  }
+  
+  .active {
+    background-color: crimson;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 5px 10px 30px rgba(235, 39, 13, 0.411);
+    padding: 5px;
+    transition: all ease 0.2s;
+  }
+  
+  .logo img {
+    width: 60px;
+  }
+  
+  .glitch {
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
+    animation: glitch 725ms infinite;
+  }
+  
+  .glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .glitch span:first-child {
+    animation: glitch 500ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    transform: translate(-0.04em, -0.03em);
+    opacity: 0.75;
+  }
+  
+  .glitch span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    transform: translate(0.04em, 0.03em);
+    opacity: 0.75;
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+  
+    15% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+  
+    16% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+  
+    49% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+  
+    50% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+  
+    99% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+  
+    100% {
+      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+        -0.04em -0.025em 0 #fffc00;
+    }
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .navAnc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #toggler,
+  .navbar label {
+    display: none;
+  }
+  
+  label i {
+    color: #fff;
+  }
+  
+  /**line under menus when hover**/
+  .linked a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: crimson;
+    transition: 0.3s;
+    bottom: 0;
+    margin-bottom: -5px;
+  }
+  
+  .linked a::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 3px;
+    background: crimson;
+    transition: 0.3s;
+    top: 0;
+    margin-top: -5px;
+  }
+  
+  .linked a:hover::before {
+    width: 100%;
+  }
+  
+  .linked a:hover::after {
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  /************RESPONSIVENESS*************/
+  
+  @media screen and (max-width: 1650px){
+    .glitch {
+      font-size: 2.2rem;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .navbar .navAnc {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .glitch {
+      font-size: 2.2rem;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .navbar .navAnc {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .list {
+      gap: 15px;
+    }
+  
+    .navbar .navAnc {
+      font-size: 16px;
+    }
+  } 
+  @media screen and (max-width: 850px) {
+    .navbar .navAnc {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+    }
+  
+    .list {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .navbar label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+    #toggler:checked~.menu {
+      max-height: 100%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .glitch {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .glitch {
+      font-size: 30px;
+      float: right;
+      letter-spacing: 12px;
+    }
+  }
