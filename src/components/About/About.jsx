@@ -17,7 +17,7 @@ const About = () => {
           molestias. Quibusdam laborum saepe unde ea in sapiente non aspernatur
           corporis, laboriosam magni cum eos voluptates dolores, rem nobis
           tempore quae dicta! Laudantium praesentium a laborum velit vitae cum
-          architecto possimus nemo ad tenetur temporibus at ut commodi, ea
+          architecto possimus nmmm ad tenetur temporibus at ut commodi, ea
           adipisci autem, maiores impedit dolorem in! Modi laudantium, nobis
           quam laboriosam aspernatur nostrum cumque, quidem doloremque numquam
           illo rem? Quidem similique sint molestias.

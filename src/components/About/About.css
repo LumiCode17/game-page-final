@@ -28,6 +28,7 @@
   
   .strong {
     color: red;
+    font-weight: bold;
   }
   
   .contained {
