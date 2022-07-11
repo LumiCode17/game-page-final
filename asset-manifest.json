@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game-page-final/static/css/main.ea4689fd.css",
-    "main.js": "/game-page-final/static/js/main.5f476ba2.js",
+    "main.js": "/game-page-final/static/js/main.f86665df.js",
     "static/media/basket-ball.jpg": "/game-page-final/static/media/basket-ball.802e3541d80b39bdb6e7.jpg",
     "static/media/trialsRide.jpg": "/game-page-final/static/media/trialsRide.7663f4999ea6e31e3761.jpg",
     "static/media/PC_Games_logo.png": "/game-page-final/static/media/PC_Games_logo.13884d36de1e37f8b87d.png",
@@ -46,10 +46,10 @@
     "static/media/demonkiller.jpg": "/game-page-final/static/media/demonkiller.ff32353ad98131537854.jpg",
     "index.html": "/game-page-final/index.html",
     "main.ea4689fd.css.map": "/game-page-final/static/css/main.ea4689fd.css.map",
-    "main.5f476ba2.js.map": "/game-page-final/static/js/main.5f476ba2.js.map"
+    "main.f86665df.js.map": "/game-page-final/static/js/main.f86665df.js.map"
   },
   "entrypoints": [
     "static/css/main.ea4689fd.css",
-    "static/js/main.5f476ba2.js"
+    "static/js/main.f86665df.js"
   ]
 }
