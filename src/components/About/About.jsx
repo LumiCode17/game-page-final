@@ -11,7 +11,7 @@ const About = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
           reprehenderit perspiciazuh quod velit ea corporis doloremque maxime
           doloribus provident sit! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ea fugiat, nostrum commodi, tempore qui tempora
+          adipisscing elit. Ea fugiat, nostrum commodi, tempore qui tempora
           officia earum quidem animi nemo dolor aliquid assumenda recusandae
           quae nisi possimus? Praesentium hic eaque corrupti! Voluptatum, id
           molestias. Quibusdam laborum saepe unde ea in sapiente non aspernatur
