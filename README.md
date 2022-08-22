@@ -1,5 +1,11 @@
 # My Final Project @DCI
-### A full functional and responsive game website created by me using React JS 
+
+### A full functional and responsive game website created by me using React JS, this was my final project as a graduating Web-Dev student at DIGITAL CAREER INSTITUTE GmbH where i was certified as a Full-stack developer.
+
+A Website with collections of games i fetch through iframes embeded.
+I used some cool React JS tools like - Pop up, react-full-screen, react-responsive-modals, scrolls and so on.
+I enjoyed every bit of it and i know that with the level i practice everyday this project won't be in any level with the projects coming.
+#####################################################################
 
 # Getting Started with Create React App
 
