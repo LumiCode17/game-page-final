@@ -5,7 +5,7 @@
 A Website with collections of games i fetch through iframes embeded.
 I used some cool React JS tools like - Pop up, react-full-screen, react-responsive-modals, scrolls and so on.
 I enjoyed every bit of it and i know that with the level i practice everyday this project won't be in any level with the projects coming.
-#####################################################################
+#HTML #CSS #JAVASCRIPT #REACT.JS #FRONTEND #WEBDEV #DEVELOPER #CONTENTCREATOR #FINALPROJECT
 
 # Getting Started with Create React App
 
